@@ -1,0 +1,2 @@
+# theme
+Typenter example theme
