@@ -16,3 +16,19 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+.settings/
+.buildpath
+.project
+.git/
+
+cache/*
+assets/*
+
+vendor/
+composer.lock
+phpunit.xml
+.php_cs.cache
+composer.phar
+package.tar
+/packages.json
+/.phpunit

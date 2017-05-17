@@ -1,2 +1,1 @@
-# theme
-Typenter example theme
+# Typenter example wordpress theme

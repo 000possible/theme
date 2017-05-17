@@ -1,0 +1,20 @@
+{
+    "name": "typenter/theme",
+    "license": "MIT",
+    "type": "wordpress",
+    "require": {
+        "typenter/framework-bundle": "^0.1",
+        "typenter/templating-bundle": "^0.1",
+        "typenter/theme-bundle": "^0.1"
+    },
+  "autoload": {
+     "psr-4": {
+         "": "src"
+     }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "Tests\\": "tests/"
+      }
+  }
+}
