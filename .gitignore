@@ -21,8 +21,8 @@ wp-content/plugins/hello.php
 .project
 .git/
 
-cache/*
-assets/*
+cache/**
+assets/**
 
 vendor/
 composer.lock
