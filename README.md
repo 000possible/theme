@@ -75,8 +75,8 @@ typenter_setup_environment($kernel);
 模版
 --------------------------
 如果指定了命名空间为`ThemeBundle` 则`typenter_render('@ThemeBundle/index.html.twig')` 的查找顺序为
-* `<主题根目录>/path/to/ThemeBundle/Resources/views/index.html.twig`
 * `<主题根目录>/views/ThemeBundle/index.html.twig`
+* `<主题根目录>/path/to/ThemeBundle/Resources/views/index.html.twig`
 
 `typenter_render('index.html.twig')` 查找目录为
 * `<主题根目录>/app/Resources/views/index.html.twig` 
