@@ -66,7 +66,7 @@ class ThemeAppKernel extends Kernel
 }   
     
 // dev 启用开发环境,页面缓存会自动刷新，生产环境 prod
-$kernel = new ThemeAppKernel('dev');
+$kernel = new ThemeAppKernel('dev');	
 $kernel->boot();
 // 如果需要在其他PHP代码中使用整个运行环境,需要设置全局变量  
 typenter_setup_environment($kernel);  
