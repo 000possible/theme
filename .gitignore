@@ -20,6 +20,7 @@ wp-content/plugins/hello.php
 .buildpath
 .project
 .git/
+.idea/
 
 vendor/
 composer.lock
